@@ -1,6 +1,6 @@
-import { useNavigation } from '@react-navigation/native';
-import { debounce } from 'lodash';
-import React, { useCallback, useEffect, useState } from 'react';
+import {useNavigation} from '@react-navigation/native';
+import {debounce} from 'lodash';
+import React, {useCallback, useEffect, useState} from 'react';
 import {
   FlatList,
   Pressable,
@@ -12,9 +12,9 @@ import {
 } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import { getAPI } from '../api/api';
-import { imageUrl, searchApi } from '../constant/urls';
-import n, { SCREEN_HEIGHT, SCREEN_WIDTH } from '../helpers/normalizer';
+import {getAPI} from '../api/api';
+import {imageUrl, searchApi} from '../constant/urls';
+import n, {SCREEN_HEIGHT, SCREEN_WIDTH} from '../helpers/normalizer';
 
 const SearchScreen = () => {
   const [text, setText] = useState(null);
@@ -46,7 +46,7 @@ const SearchScreen = () => {
         />
         <TouchableOpacity
           onPressIn={() => navigation.navigate('home')}
-          style={{paddingRight: n(10)}}>
+          style={{paddingRight: n(5)}}>
           <AntDesign name="closecircle" size={40} color={'grey'} />
         </TouchableOpacity>
       </View>
