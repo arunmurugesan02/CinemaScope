@@ -6,7 +6,6 @@ import HomeScreen from '../screens/HomeScreen';
 import MovieScreen from '../screens/MovieScreen';
 import PersonScreen from '../screens/PersonScreen';
 import SearchScreen from '../screens/SearchScreen.';
-import MyDrawer from './DrawerNavigatio';
 
 const Stack = createStackNavigator();
 

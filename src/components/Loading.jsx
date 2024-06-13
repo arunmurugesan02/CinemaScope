@@ -19,8 +19,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: SCREEN_WIDTH,
     height: SCREEN_HEIGHT,
-    left: 0,
-    bottom: 10,
     backgroundColor: 'black',
   },
 });
